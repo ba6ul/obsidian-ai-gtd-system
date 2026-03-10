@@ -9,6 +9,10 @@ This skill transforms Gemini CLI into a productivity partner that follows your s
 
 ## 🚀 Core Workflows
 
+### 0. 🛡️ Pre-Scheduling Mandate (CRITICAL)
+- **Action**: BEFORE proposing or updating any schedule, you MUST consult `references/time-block.md`. 
+- **Goal**: Ensure the 19:00–21:00 (Creative) and 21:00–22:00 (Wind-Down) blocks are respected and used according to their specific overflow and priority logic.
+
 ### 1. Capture & Inbox Processing
 - **Trigger**: "Capture this...", "Remind me to...", "I have an idea for..."
 - **Action**: 
@@ -42,7 +46,10 @@ This skill transforms Gemini CLI into a productivity partner that follows your s
 - **The "Nuclear" Option**: If a task is rescheduled 5 times, automatically move it to `60_ARCHIVE/Backlog` with the tag `#stalled`.
 
 ## 📝 Procedural Knowledge
-For detailed structure and rules, see [gtd_guide.md](references/gtd_guide.md).
+For detailed structure and rules, see:
+- [gtd_guide.md](references/gtd_guide.md)
+- [time-block.md](references/time-block.md) (Protected scheduling rules)
+
 
 ## 📁 Key Directories
 - **00_INBOX**: Entry point for all captures.
